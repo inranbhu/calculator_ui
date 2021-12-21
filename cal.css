@@ -1,0 +1,43 @@
+
+
+
+    
+
+.container {
+    
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    justify-content:center;
+    
+   
+    padding: 40px;
+    width: 500px;
+    height: 500px;
+    border: 3px solid green;
+    margin-top: 100px;
+    margin-left: 440px;
+    margin-right: 440px;
+    
+   
+    border-radius: 5px;
+    
+    box-shadow:2px 5px red;
+    
+  
+}
+
+.display{
+    grid-column: 1 / -1;
+}
+.equal {
+    grid-column: 1 / -1;
+}
+.clear{
+    grid-column: 3 / -1;
+}
+
+div:hover{
+    background-color: red ;
+}
